@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>provincias</groupId>
+  <artifactId>provincias</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>PruebaMSF4J</name>
+  <description>Prueba framework WSO2 MSF4j</description>
+  <parent>
+    <groupId>org.wso2.msf4j</groupId>
+    <artifactId>msf4j-service</artifactId>
+    <version>2.6.0</version>
+  </parent>
+  
+  <properties>
+    <microservice.mainClass>
+        com.prueba.msf4j.Application
+    </microservice.mainClass>
+  </properties>
+</project>
